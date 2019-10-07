@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <div class="btn-group">
+      <a class="btn btn-outline-secondary" [routerLink]="['new']" routerLinkActive="active">
+        New
+      </a>
+      <a class="btn btn-outline-secondary" [routerLink]="[10, 'edit']" routerLinkActive="active">
+        Edit
+      </a>
+      <a class="btn btn-outline-secondary" [routerLink]="[10, 'show']" routerLinkActive="active">
+        Show
+      </a>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
